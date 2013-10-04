@@ -1,6 +1,7 @@
 gem 'minitest'
 require 'minitest/autorun'
 require 'minitest/pride'
+require_relative 'hobbit'
 
 class HobbitTest < Minitest::Test
   def test_it_has_a_name
