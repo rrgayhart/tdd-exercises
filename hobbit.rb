@@ -28,7 +28,7 @@ class Hobbit
   end
 
   def adult?
-    if age > 32 then true end
+    age > 32
   end
 
 end

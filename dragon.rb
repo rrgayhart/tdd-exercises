@@ -22,7 +22,7 @@ class Dragon
   end
 
   def hungry?
-    if @color == :brown && @hunger < 3 then true end
+    @color == :brown && @hunger < 3
   end
 
   def eat

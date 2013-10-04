@@ -14,9 +14,7 @@ class Unicorn
   end
 
   def white?
-    if @color == "white" then true
-    else false
-    end
+    @color == "white"
   end
 
   def say(input)
